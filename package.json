@@ -1,0 +1,24 @@
+{
+  "name": "razorpay-latest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "types": "./lib/**/*.d.ts",
+  "scripts": {
+    "dev": "node ./src/index.ts",
+    "start": "node index.js",
+    "build": "cd lib && del * && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^17.0.21",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
